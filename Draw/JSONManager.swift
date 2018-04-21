@@ -58,7 +58,7 @@ class JSONManager {
                             let player = Player(id: id, firstName: firstName, lastName: lastName, DOB: dob, isProfessional: isProfessional, points: points, photo: "player", description: "This is the description of the selected player, which can be fully viewed after clicking on the players row in this table view representation.", trainer: trainer)
                             //add created player to a playersArray
                             playersArray.append(player)
-                            
+                            trainer = nil
                          }
                         
                     } catch {
